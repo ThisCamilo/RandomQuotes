@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lugrasimo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    background: url(/img/images.jpg) no-repeat center/cover;
+    backdrop-filter: blur(7px);
+}
+
+.container-cent{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 80vw;
+    padding: 30px;
+    max-width: 600px;
+    min-height: 500px;
+    border: 3px solid black;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 50px 10px black;
+}
+
+.container-int{
+    width: 80%;
+}
+
+#title{
+    width: 100%;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    user-select: none;
+}
+
+#cite{
+    font-family: "Lugrasimo", cursive;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 50px;
+    font-size: 24px;
+}
+
+#author{
+    font-family: "Lugrasimo", cursive;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+
+#btn-change-cite{
+    width: 160px;
+    height: 40px;
+    border-radius: 10px 10px 40px 40px;
+    box-shadow: 2px 2px grey;
+    transition: all .3s ease;
+}
+
+#btn-change-cite:hover{
+    transform: translate(0px, 3px);
+}
